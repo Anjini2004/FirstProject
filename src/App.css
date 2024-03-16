@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+
+.image-container {
+  display: flex; /* Use flexbox layout */
+}
+
+.App-image {
+  width: 200px; /* Set the width of each image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add spacing between images (adjust as needed) */
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import image1 from './image1.jpg'; // Import the first image
+import image2 from './image2.jpg'; // Import the second image
 import './App.css';
 
 function App() {
@@ -6,17 +8,13 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hi
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Hi</p>
+
+        {/* Display images side by side */}
+        <div className="image-container">
+          <img src={image1} className="App-image" alt="Image 1" />
+          <img src={image2} className="App-image" alt="Image 2" />
+        </div>
       </header>
     </div>
   );
