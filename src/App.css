@@ -13,17 +13,15 @@
   margin-right: 10px; /* Add spacing between images (adjust as needed) */
 }
 
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-container {
+  margin-top: 20px; /* Add margin between images and buttons (adjust as needed) */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  margin-right: 10px; /* Add spacing between buttons (adjust as needed) */
 }
+
+
 
 .App-header {
   background-color: #282c34;
